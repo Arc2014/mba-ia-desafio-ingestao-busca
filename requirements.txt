@@ -1,0 +1,37 @@
+# ================================================================
+# Sistema de Ingestão e Busca Semântica com RAG
+# Requirements para Python 3.9+
+# ================================================================
+
+# Core LangChain Framework
+langchain==0.3.27
+langchain-core==0.3.74
+langchain-community==0.3.27
+langchain-text-splitters==0.3.9
+
+# LangChain Integrations - AI Providers
+langchain-openai==0.3.30        # OpenAI integration (GPT-4, embeddings)
+langchain-google-genai==2.1.9   # Google Gemini integration (includes google-generativeai)
+
+# LangChain Integrations - Database
+langchain-postgres==0.0.15      # PostgreSQL + pgVector integration
+
+# AI Provider APIs
+openai>=1.0.0                   # OpenAI API client
+# Note: google-generativeai is auto-installed by langchain-google-genai
+
+# PostgreSQL and Vector Database
+psycopg[binary]>=3.1.0          # PostgreSQL adapter (with binary)
+pgvector>=0.3.0                 # pgVector extension support
+SQLAlchemy>=2.0.0               # SQL toolkit and ORM
+
+# Document Processing
+pypdf>=4.0.0                    # PDF file processing
+
+# Utilities
+python-dotenv>=1.0.0            # Environment variables from .env
+pydantic>=2.0.0                 # Data validation
+pydantic-settings>=2.0.0        # Settings management
+
+# Performance (Optional but Recommended)
+tiktoken>=0.5.0                 # Token counting for OpenAI models
