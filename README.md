@@ -2,8 +2,6 @@
 
 ## 🚀 Como Executar
 
-### 🎯 Método Rápido (Recomendado)
-
 Use os scripts automatizados que cuidam de tudo para você:
 
 ```bash
