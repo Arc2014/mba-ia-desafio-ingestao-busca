@@ -14,6 +14,8 @@ cp .env.example .env
 # Edite .env e adicione OPENAI_API_KEY ou GOOGLE_API_KEY
 
 # 3. Instale tudo automaticamente (cria venv, instala dependências)
+* Ter python env instalado
+* Em caso de erros por conflito e/ou lib nao encontrada rrodar install  novamente.
 ./install.sh
 
 # 4. Inicie o banco de dados
